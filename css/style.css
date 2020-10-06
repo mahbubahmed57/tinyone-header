@@ -1,0 +1,33 @@
+/*font-family: 'PT Sans', sans-serif;*/
+body{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101;
+}
+/*header start*/
+
+header{
+    background-color: #fcdb00;
+    padding: 10px 0;
+}
+
+.logo{
+
+}
+
+.menu ul li a{
+	font-weight: 700;
+	font-size: 22px;
+	color: #010101 !important;
+	text-transform: capitalize;
+	padding: 0 35px !important; 
+	transition: .3s;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+
+/*header end*/
